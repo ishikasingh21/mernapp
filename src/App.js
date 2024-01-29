@@ -1,9 +1,17 @@
-
 import './App.css';
+import Home from './screens/Home';
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-   <div className= 'fs-1'>Hello World</div>
+    <>
+      <div> <Home></Home></div>
+    </>
   );
 }
 
