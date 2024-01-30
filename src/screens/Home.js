@@ -10,7 +10,15 @@ export default function Home() {
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-copy">
                     <h5 className="card-title">Card title</h5>
-                    <p className="card-text">some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">This is some IMPORTANT text.</p>
+                    <div className='container w-100'></div>
+                    <select className='m-2 h-100 w-100bg-success'>
+                        {Array.from(Array(6), (i)=>{
+                            return(
+                                <option key={i+1}> value={i+1} </option>
+                            )
+                        })}
+                    </select>
                 </div>
             </div></div>
             <div><Footer /> </div>
