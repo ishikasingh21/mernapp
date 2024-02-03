@@ -4,7 +4,13 @@ export default function Carousel() {
   return (
     <div>
       <div id="carouselExampleFade" className="carousel slide carousel-fade">
-        <div className="carousel-inner">
+        <div className="carousel-inner" id='carousel'>
+        <div className="carousel-caption" style={{zIndex:"10"}}>
+          <form className="d-flex">
+            <input className="form-control me-2" type="search" placeholder="serach" aria-label="Search" />
+            <button className="btn btn-outline-success" type="submit">Search</button> 
+          </form>
+          </div>
           <div className="carousel-item active">
             <img src="https://source.unsplash.com/random/300x300/?burger" className="d-block w-100" alt="..." />
           </div>
