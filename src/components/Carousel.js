@@ -6,13 +6,13 @@ export default function Carousel() {
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/300x300/?pasta"class="d-block w-100" alt="..."/>
+      <img src="https://source.unsplash.com/random/300x300/?burger"class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://source.unsplash.com/random/300x300/?burger" class="d-block w-100" alt="..."/>
+      <img src="https://source.unsplash.com/random/300x300/?maggie" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://source.unsplash.com/random/300x300/?momos" class="d-block w-100" alt="..."/>
+      <img src="https://source.unsplash.com/random/300x300/?pasta" class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
